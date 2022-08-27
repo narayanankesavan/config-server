@@ -55,21 +55,8 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                 <properties>
-                           <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-                  </properties>
             </plugin>
         </plugins>
-        <resources>
-                  <resource>
-                           <filtering>true</filtering>
-                           <directory>src/main/resources</directory>
-                           <includes>
-                                    <include>*.properties</include>
-                                    <include>common-config/</include>
-                           </includes>
-                  </resource>
-        </resources>
     </build>
 
 </project>
